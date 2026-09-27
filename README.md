@@ -1,4 +1,6 @@
 # 🦷 DentalView
+<img width="114" height="114" alt="m-ZGjReOSRPAnTRIR5WFld1noiw-7Cq3jfqZT7yjNJ_NwUWxUw" src="https://github.com/user-attachments/assets/2bc083a0-27f7-4405-bc5d-340e246e23fc" />
+
 
 > An intelligent, offline desktop application for computer-aided detection of dental anomalies in panoramic X-ray (OPG) images.
 
@@ -11,14 +13,14 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Demo](#-demo)
-- [Architecture](#-architecture)
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Demo](#demo)
+- [Architecture](#architecture)
 - [Model Performance](#-model-performance)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Technologies](#-technologies)
+- [Technologies](#technologies)
 - [Project Structure](#-project-structure)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -26,7 +28,7 @@
 
 ---
 
-## 🔍 Overview
+## 🔍 Overview  <a id="overview"></a>
 
 **DentalView** is a privacy-focused, locally-executed desktop application designed to assist dental professionals in identifying anomalies in panoramic radiographs (OPG images). Built with a layered architecture, it combines AI-powered detection with manual annotation capabilities, providing a comprehensive workflow from patient management to report generation.
 
@@ -39,14 +41,15 @@
 
 ---
 
-## ✨ Key Features
+## ✨ Key Features <a id="key-features"></a>
+
 
 ### 🧑‍⚕️ Patient & Case Management
 - **Patient Database**: Store patient demographics (name, ID, DOB, phone, notes) in a local SQLite database.
 - **Case History**: Organize multiple OPG images per patient with timestamps, labels, and custom notes.
 - **Search & Filter**: Quickly retrieve patient records and case history.
 
-### 🤖 AI-Powered Detection
+### 🤖 AI-Powered Detection 
 - **YOLOv8 Nano Model**: Lightweight object detection optimized for dental anomalies.
 - **31 Detection Classes**: Trained on 24,000+ patient OPG images (public Kaggle dataset); exact benchmark metrics pending publication.
 - **Asynchronous Inference**: Non-blocking model loading and detection via QThread workers.
@@ -71,7 +74,7 @@
 
 ---
 
-## 🎬 Demo
+## 🎬 Demo <a id="demo"></a>
 
 ### Application Interface
 <img width="667" height="345" alt="demo1" src="https://github.com/user-attachments/assets/e58c761c-10fa-4c92-beb1-26d1a0cdc130" />
@@ -95,7 +98,7 @@
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture <a id="architecture"></a>
 
 The application follows a **strict three-layer architecture** where each layer depends only on the layer below it, ensuring separation of concerns, testability, and maintainability.
 
@@ -332,7 +335,7 @@ The application will:
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Technologies <a id="technologies"></a>
 
 ### Core Framework
 - **[PySide6](https://pypi.org/project/PySide6/)** — Qt6 Python bindings for cross-platform GUI development.
