@@ -13,13 +13,13 @@ datas_pyside6 = collect_data_files('PySide6')
 block_cipher = None
 
 a = Analysis(
-    ['main.py'],  # ✅ اصلاح: main.py کنار spec هست، نه توی dental_opg_detector
+    ['main.py'],  # ✅
     pathex=['.'],
     binaries=binaries_ultralytics,
     datas=[
         *datas_ultralytics,
         *datas_pyside6,
-        ('dental_data', 'dental_data'),  # ✅ اضافه شد: پوشهٔ دیتابیس و تصاویر
+        ('dental_data', 'dental_data'),  # ✅ 
     ],
     hiddenimports=[
         *hiddenimports_ultralytics,
