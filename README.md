@@ -74,19 +74,16 @@
 ## 🎬 Demo
 
 ### Application Interface
-<!-- Replace with actual screenshot -->
-<img width="1907" height="987" alt="demo1" src="https://github.com/user-attachments/assets/e58c761c-10fa-4c92-beb1-26d1a0cdc130" />
+<img width="667" height="345" alt="demo1" src="https://github.com/user-attachments/assets/e58c761c-10fa-4c92-beb1-26d1a0cdc130" />
 
 
 ### Detection Workflow
-<img width="1334" height="690" alt="demo" src="https://github.com/user-attachments/assets/0f5f0dbb-987e-45ea-a7db-dd175df39109" />
+<img width="667" height="345" alt="demo" src="https://github.com/user-attachments/assets/0f5f0dbb-987e-45ea-a7db-dd175df39109" />
 
 
 ### Sample Detections
-<!-- Replace with actual detection examples -->
-<p align="center">
-  <img src="assets/screenshots/detection_example_1.png" width="45%" />
-  <img src="assets/screenshots/detection_example_2.png" width="45%" />
+<p align="">
+  <img width="386" height="514" alt="image" src="https://github.com/user-attachments/assets/58713b00-d2a8-42a5-9d41-baabf353ab33" />
 </p>
 *Examples of AI-detected dental anomalies with bounding boxes.*
 
