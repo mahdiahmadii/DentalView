@@ -18,7 +18,6 @@
 - [Model Performance](#-model-performance)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Database Schema](#-database-schema)
 - [Technologies](#-technologies)
 - [Project Structure](#-project-structure)
 - [Contributing](#-contributing)
@@ -76,13 +75,12 @@
 
 ### Application Interface
 <!-- Replace with actual screenshot -->
-![Main Interface](assets/screenshots/main_ui.png)
-*Main application window showing patient sidebar, image canvas, and detection panel.*
+<img width="1907" height="987" alt="demo1" src="https://github.com/user-attachments/assets/e58c761c-10fa-4c92-beb1-26d1a0cdc130" />
+
 
 ### Detection Workflow
-<!-- Replace with actual GIF -->
-![Detection Demo](assets/demo/detection_workflow.gif)
-*Loading an OPG image, running AI detection, and reviewing findings.*
+<img width="1334" height="690" alt="demo" src="https://github.com/user-attachments/assets/0f5f0dbb-987e-45ea-a7db-dd175df39109" />
+
 
 ### Sample Detections
 <!-- Replace with actual detection examples -->
@@ -94,7 +92,8 @@
 
 ### Generated Report
 <!-- Replace with PDF screenshot -->
-![PDF Report Sample](assets/screenshots/pdf_report_sample.png)
+<img width="518" height="336" alt="Picture1" src="https://github.com/user-attachments/assets/411fb00d-e5e7-40ba-8a76-db8636f6a1be" />
+
 *Sample generated PDF report with findings table and clinical notes.*
 
 ---
@@ -187,8 +186,8 @@ The detection model is a **YOLOv8** variant enhanced with **channel and spatial 
 ### Detection Metrics
 <!-- Replace with precision/recall/mAP charts -->
 <p align="center">
-  <img src="assets/model_performance/precision_recall_curve.png" width="45%" />
-  <img src="assets/model_performance/confusion_matrix.png" width="45%" />
+<img width="499" height="299" alt="Picture2" src="https://github.com/user-attachments/assets/d1bec738-ae08-48d8-9866-e01592d23071" />
+<img width="490" height="282" alt="Picture3" src="https://github.com/user-attachments/assets/55f472b9-df9a-4bc5-a57b-1c4b0f7c1d7b" />
 </p>
 *Precision-Recall curve and confusion matrix on validation set.*
 
